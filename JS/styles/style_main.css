@@ -1,0 +1,53 @@
+.header {
+    border: 5px solid rgb(234, 204, 58);
+    background-color: brown;
+    height: 50px;
+}
+.container {
+    display: flex; /* Используем Flexbox */
+}
+.top-bar {
+    border: 5px solid rgb(48, 0, 77);
+    background-color:rgb(113, 0, 184);
+    height: 50px;
+}
+
+
+
+.side-bar {
+    border: 5px solid rgb(3, 175, 95);
+    background-color: rgb(13, 71, 44);
+    width: 200px;
+}
+
+.main {
+    border: 5px solid rgb(151, 63, 63);
+    background-color: rgb(65, 40, 35);
+    height: 400;
+    width: 60%;
+}
+
+.right-bar{
+    flex-grow: 1;
+    border: 5px solid rgb(138, 234, 237);
+    background-color: rgb(85, 107, 133);
+}
+
+.center {
+    display: flex;
+}
+.menu li {
+    float: left;
+}
+
+.menu li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.menu li a:hover {
+    background-color: #111;
+}
